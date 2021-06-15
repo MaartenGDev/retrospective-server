@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retro.Web", "Retro.Web\Retro.Web.csproj", "{90718188-EA32-46FB-9603-B115AF7FC248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retro.Data", "Retro.Data\Retro.Data.csproj", "{3E2D30D5-7257-42F3-A842-5B6EBCF4A6F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{76C5D2F0-DE63-4CB2-A6C4-F4A1BE0C00FD}"
+ProjectSection(SolutionItems) = preProject
+	Add-Migration.ps1 = Add-Migration.ps1
+	Remove-Migration.ps1 = Remove-Migration.ps1
+	Apply-Migrations.ps1 = Apply-Migrations.ps1
+	Dockerfile = Dockerfile
+	Generate-Sql-Script.ps1 = Generate-Sql-Script.ps1
+	azure-pipelines.yml = azure-pipelines.yml
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retro.Web.Tests", "Retro.Web.Tests\Retro.Web.Tests.csproj", "{6A56C147-CDB4-4A38-8E08-829ADE7A6775}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90718188-EA32-46FB-9603-B115AF7FC248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90718188-EA32-46FB-9603-B115AF7FC248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90718188-EA32-46FB-9603-B115AF7FC248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90718188-EA32-46FB-9603-B115AF7FC248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2D30D5-7257-42F3-A842-5B6EBCF4A6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2D30D5-7257-42F3-A842-5B6EBCF4A6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2D30D5-7257-42F3-A842-5B6EBCF4A6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2D30D5-7257-42F3-A842-5B6EBCF4A6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A56C147-CDB4-4A38-8E08-829ADE7A6775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A56C147-CDB4-4A38-8E08-829ADE7A6775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A56C147-CDB4-4A38-8E08-829ADE7A6775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A56C147-CDB4-4A38-8E08-829ADE7A6775}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
